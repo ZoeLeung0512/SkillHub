@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="sidebar.css">
+        <script src="sidebar.js"></script>
+        <title>Sign Up | SkillHub</title>
+</head>
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+      <a href="Main.html">Home</a>
+
+	  <a href="#">About Us</a>
+
+	  <a href="#">Explore on the Skill Pool</a>
+
+      <a href="#">Contact Us</a>
+
+      <a href="Login.html">Login</a>
+</div>
+
+<div id='main' class="container">
+    <button class="openbtn" onclick="openSidebar()">&#9776; Open Sidebar</button>
+
+        <h1>Welcome back to SkillHub!</h1>
+
+        <p>Please enter your details to sign up your account.</p>
+            
+            <label for="email">Email:</label>
+
+            <input type="email" id="email" name="email" required>
+
+            <br></br>
+
+            <br><label for="password">Password:</label>
+
+            <input type="password" id="password" name="password" required></br>
+
+            <br></br>
+
+            <label for="username">User Name:</label>
+
+            <input type="username" id="username" name="username" required>
+
+            <br></br><br></br>
+
+            <label for="w_skill">Skills want to learn:</label>
+
+            <input type="w_skill" id="w_skill" name="w_skill" required>
+
+            <br></br><br></br>
+
+            <label for="p_skill">Skills that I can teach:</label>
+
+            <input type="p_skill" id="p_skill" name="p_skill" required>
+
+            <br></br><br></br>
+
+            <button type="submit" onclick="sendData()">Submit</button>
+
+            <br></br><br></br>
+
+            <div class="signup-link">
+
+                <p>Don't have an account?</p>
+
+                <a href="Sign up.html">Sign up here</a>
+
+            </div>
+
+        </form>
+        <br></br><br></br><br></br>
+        <footer>
+            <p>&copy; Apr 2023. All rights reserved.</p>    
+        </footer>
+
+    </div>    
+
+</body>
+
+</html>
